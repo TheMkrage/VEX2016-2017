@@ -1,7 +1,7 @@
 
 void armManual() {
-	motor[armTopMiddle] = vexRT[Ch2Xmtr2];
-	motor[armBottom] = vexRT[Ch2Xmtr2];
+	motor[climberA] = vexRT[Ch2Xmtr2];
+	motor[climberB] = vexRT[Ch2Xmtr2];
 }
 
 task armAuto()
